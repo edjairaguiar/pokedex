@@ -42,6 +42,7 @@ const GlobalStyles = createGlobalStyle`
     a {
         color: var(--white);
     }
+
 `
 
 export default GlobalStyles
