@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Logo = styled.img`
-  padding-left: 30px;
+  padding-left: 40px;
   width: 10rem;
   cursor: pointer;
   transition: all 2s;
@@ -11,9 +11,10 @@ export const Logo = styled.img`
 `
 
 export const Wrapper = styled.div`
+  border-radius: 30px 30px 0px 0px;
   background-color: #ca3c25;
-  width: 100%;
-  height: 100px;
+  width: 50%;
+  height: 15%;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -22,17 +23,19 @@ export const Wrapper = styled.div`
 `
 
 export const List = styled.ul`
+  padding: 30px;
   list-style-type: none;
-  margin: 0;
   overflow: hidden;
 `
 
 export const Link = styled.a`
+  margin-right: 10px;
   font-size: 16px;
-  padding-right: 50px;
+  padding: 25px;
   text-decoration: none;
   transition: all 2s;
+  border-radius: 30px;
   &:hover {
-    font-size: 20px;
+    background-color: rgb(9, 12, 2, 0.3);
   }
 `
