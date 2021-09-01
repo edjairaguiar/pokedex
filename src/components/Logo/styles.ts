@@ -6,6 +6,6 @@ export const Logo = styled.img`
   cursor: pointer;
   transition: all 2s;
   &:hover {
-    transform: translateX(10em);
+    transform: translateX(10rem);
   }
 `
