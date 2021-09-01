@@ -3,10 +3,14 @@ import * as S from './styles'
 const Header = () => (
   <S.Wrapper>
     <S.Logo src="img/pokeball.png" alt="Logo da franquia POKÉMON" />
-    <S.List>
-      <S.Link href="#">Início</S.Link>
-      <S.Link href="#">Sair</S.Link>
-    </S.List>
+    <S.Navigation>
+      <S.Item>
+        <S.Link href="#">Início</S.Link>
+      </S.Item>
+      <S.Item>
+        <S.Link href="#">Sair</S.Link>
+      </S.Item>
+    </S.Navigation>
   </S.Wrapper>
 )
 
