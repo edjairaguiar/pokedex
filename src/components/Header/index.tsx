@@ -1,8 +1,9 @@
 import * as S from './styles'
+import Logo from '../Logo'
 
 const Header = () => (
   <S.Wrapper>
-    <S.Logo src="img/pokeball.png" alt="Logo da franquia POKÉMON" />
+    <Logo />
     <S.Navigation>
       <S.Item>
         <S.Link href="#">Início</S.Link>

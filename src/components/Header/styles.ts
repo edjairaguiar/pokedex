@@ -1,15 +1,5 @@
 import styled from 'styled-components'
 
-export const Logo = styled.img`
-  padding-left: 5rem;
-  width: 12rem;
-  cursor: pointer;
-  transition: all 2s;
-  &:hover {
-    transform: translateX(10em);
-  }
-`
-
 export const Wrapper = styled.div`
   border-radius: 5rem 5rem 0rem 0rem;
   background-color: #ca3c25;
