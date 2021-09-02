@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as S from './styles'
 import Pokeball from 'components/Pokeball'
 
