@@ -12,7 +12,9 @@ export const Ball = styled.div`
 `
 
 export const Icon = styled.img`
+  display: block;
   padding-top: 1.5rem;
+  margin: auto;
   width: 5rem;
   cursor: pointer;
 `
