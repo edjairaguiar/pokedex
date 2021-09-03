@@ -1,18 +1,13 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  opacity: 0.5;
-  background-color: #c4cad0;
+  border-radius: 0rem 0rem 3rem 3rem;
+  background-color: #ca3c25;
   width: 80rem;
-  height: 12rem;
+  height: 8rem;
   text-align: center;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  transition: all 1s;
-  cursor: pointer;
-  &:hover {
-    opacity: 1;
-  }
+  justify-content: center;
 `
