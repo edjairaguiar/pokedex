@@ -17,4 +17,9 @@ export const Icon = styled.img`
   margin: auto;
   width: 5rem;
   cursor: pointer;
+  opacity: 0.5;
+  transition: 0.7s all;
+  &:hover {
+    opacity: 1;
+  }
 `
