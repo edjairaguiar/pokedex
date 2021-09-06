@@ -1,7 +1,7 @@
 import * as S from './styles'
 import Avatar from 'components/Avatar'
 
-const PokemonTeamList = () => {
+const PokemonTeam = () => {
   const FavPokeSpriteList = [
     {
       id: 1,
@@ -47,4 +47,4 @@ const PokemonTeamList = () => {
   )
 }
 
-export default PokemonTeamList
+export default PokemonTeam

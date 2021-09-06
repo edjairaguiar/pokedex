@@ -1,9 +1,9 @@
 import * as S from './styles'
-import PokemonTeamList from 'components/PokemonTeamList'
+import PokemonTeam from 'components/PokemonTeam'
 
 const TeamContainer = () => (
   <S.Wrapper>
-    <PokemonTeamList />
+    <PokemonTeam />
   </S.Wrapper>
 )
 export default TeamContainer
