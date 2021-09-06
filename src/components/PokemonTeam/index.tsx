@@ -37,13 +37,15 @@ const PokemonTeam = () => {
   ]
 
   return (
-    <S.TeamList>
-      {FavPokeSpriteList.map((FavPoke: any) => (
-        <S.PokemonFromTeam key={FavPoke.id}>
-          <Avatar src={FavPoke.imgLink} />
-        </S.PokemonFromTeam>
-      ))}
-    </S.TeamList>
+    <S.Wrapper>
+      <S.TeamList>
+        {FavPokeSpriteList.map((FavPoke: any) => (
+          <S.PokemonFromTeam key={FavPoke.id}>
+            <Avatar src={FavPoke.imgLink} />
+          </S.PokemonFromTeam>
+        ))}
+      </S.TeamList>
+    </S.Wrapper>
   )
 }
 
