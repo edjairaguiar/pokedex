@@ -1,11 +1,11 @@
 import * as S from './styles'
-import Logo from 'components/Logo'
+import AnimationImage from 'components/AnimationImage'
 import TrainerProfile from 'components/TrainerProfile'
 
 const Header = () => (
   <S.Navigation>
     <a href="#">
-      <Logo />
+      <AnimationImage />
     </a>
     <a href="#">
       <TrainerProfile />

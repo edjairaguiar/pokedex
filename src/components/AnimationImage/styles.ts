@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Logo = styled.img`
+export const AnimationImage = styled.img`
   padding-left: 5rem;
   width: 11.5rem;
   cursor: pointer;

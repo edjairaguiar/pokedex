@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   border-radius: 0rem 0rem 3rem 3rem;
   background-color: #ca3c25;
+  background-image: linear-gradient(to right, #b51e15z, #ca3c25, #b51e15z);
   width: 80rem;
   height: 8rem;
   text-align: center;
