@@ -11,3 +11,19 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
 `
+export const LEDContainer = styled.div`
+  width: 60rem;
+  height: 6rem;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+`
+
+export const LEDPanel = styled.ul`
+  list-style-type: none;
+  overflow: hidden;
+`
+
+export const LEDLight = styled.li`
+  display: inline;
+`
