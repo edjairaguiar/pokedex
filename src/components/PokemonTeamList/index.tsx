@@ -1,5 +1,5 @@
 import * as S from './styles'
-import Pokeball from 'components/Pokeball'
+import Avatar from 'components/Avatar'
 
 const PokemonTeamList = () => {
   const FavPokeSpriteList = [
@@ -40,7 +40,7 @@ const PokemonTeamList = () => {
     <S.TeamList>
       {FavPokeSpriteList.map((FavPoke: any) => (
         <S.PokemonFromTeam key={FavPoke.id}>
-          <Pokeball src={FavPoke.imgLink} />
+          <Avatar src={FavPoke.imgLink} />
         </S.PokemonFromTeam>
       ))}
     </S.TeamList>
