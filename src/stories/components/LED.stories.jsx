@@ -1,5 +1,5 @@
 import React from 'react'
-import LED from '../../components/LED'
+import LED from '../../components/assets/LED'
 
 export default {
   title: 'LED/LED',

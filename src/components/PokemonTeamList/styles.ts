@@ -7,5 +7,6 @@ export const TeamList = styled.ul`
 `
 
 export const PokemonFromTeam = styled.li`
+  margin: 1rem;
   display: inline;
 `

@@ -1,18 +1,16 @@
 import * as S from './styles'
-import Logo from '../Logo'
+import Logo from 'components/Logo'
+import TrainerProfile from 'components/TrainerProfile'
 
 const Header = () => (
-  <S.Wrapper>
-    <Logo />
-    <S.Navigation>
-      <S.Item>
-        <S.Link href="#">Início</S.Link>
-      </S.Item>
-      <S.Item>
-        <S.Link href="#">Sair</S.Link>
-      </S.Item>
-    </S.Navigation>
-  </S.Wrapper>
+  <S.Navigation>
+    <a href="#">
+      <Logo />
+    </a>
+    <a href="#">
+      <TrainerProfile />
+    </a>
+  </S.Navigation>
 )
 
 export default Header
