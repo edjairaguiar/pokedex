@@ -2,7 +2,7 @@ import React from 'react'
 import PokemonTeam from '../../components/PokemonTeam'
 
 export default {
-  title: 'PokemonTeam/PokemonTeam',
+  title: 'Components/PokemonTeam',
   component: PokemonTeam
 }
 

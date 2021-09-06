@@ -2,7 +2,7 @@ import React from 'react'
 import TrainerProfile from '../../components/TrainerProfile'
 
 export default {
-  title: 'TrainerProfile/TrainerProfile',
+  title: 'Misc/TrainerProfile',
   component: TrainerProfile
 }
 

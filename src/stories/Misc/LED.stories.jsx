@@ -2,7 +2,7 @@ import React from 'react'
 import LED from '../../components/assets/LED'
 
 export default {
-  title: 'LED/LED',
+  title: 'Misc/LED',
   component: LED
 }
 

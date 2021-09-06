@@ -2,7 +2,7 @@ import React from 'react'
 import AnimationImage from '../../components/AnimationImage'
 
 export default {
-  title: 'AnimationImage/AnimationImage',
+  title: 'Misc/AnimationImage',
   component: AnimationImage
 }
 
