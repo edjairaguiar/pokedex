@@ -8,7 +8,7 @@ const Header = () => (
       <AnimationImage />
     </a>
     <a href="#">
-      <TrainerProfile />
+      <TrainerProfile avatarLink={''} />
     </a>
   </S.Navigation>
 )
