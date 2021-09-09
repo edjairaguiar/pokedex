@@ -1,13 +1,16 @@
 import * as S from './styles'
+import AnimationImage from 'components/AnimationImage'
+import TrainerProfile from 'components/TrainerProfile'
 
 const Header = () => (
-  <S.Wrapper>
-    <S.Logo src="img/pokeball.png" alt="Logo da franquia POKÉMON" />
-    <S.List>
-      <S.Link href="#">Início</S.Link>
-      <S.Link href="#">Sair</S.Link>
-    </S.List>
-  </S.Wrapper>
+  <S.Navigation>
+    <a href="#">
+      <AnimationImage />
+    </a>
+    <a href="#">
+      <TrainerProfile avatarLink={''} />
+    </a>
+  </S.Navigation>
 )
 
 export default Header
